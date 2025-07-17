@@ -1,0 +1,187 @@
+body{
+    background-color: rgba(30, 29, 29, 0.984);
+}
+
+a 
+{
+    cursor: pointer;
+}
+
+.HeaderMain
+{
+    width: 100%;
+    height: 8svh;
+    background-color: rgb(66, 64, 64);
+    display: flex;
+    justify-content: space-between;
+}
+.nav
+{
+  width: fit-content;
+  height: 8svh;
+}
+
+.nav ul
+{
+    margin-left: 100svh;
+}
+
+.nav ul li
+{
+    display: inline;
+    float: left;
+}
+
+.nav ul li a
+{
+    padding: 2svh;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 8svh;
+    color: azure;
+}
+
+.hero-section 
+{       
+      height: 92vh;
+      background-image: url("../../../../assets/img/Feu\ image.jpg");
+      background-color: rgb(170, 170, 170);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 2svh 2svh;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+}
+
+.bottom-section 
+{
+    margin-top: auto;
+    padding: 10px; 
+    background-color: rgba(0, 0, 0, 0.355); 
+    display: flex;
+    justify-content: space-between;
+}
+
+.logomain
+{
+    display: flex;
+    justify-content: center;
+}
+
+.logomain-header h1
+{   
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: -5px;
+    
+}
+
+/* .logomain-header h2
+{
+    margin-top: -2svh;
+    font-size: 28px;
+}
+
+.logo
+{
+    display: flex;
+    height: 15svh;
+}
+
+.subtext
+{
+    font-size: 55px;
+    padding-left: 10svh;
+    margin-top: 35svh;
+}
+
+.subtext .sb2
+{
+    margin-top: -20px;
+    font-size: 30px;
+} */
+
+
+
+/* .content-section 
+{
+      background-color: #f4f4f4;
+      padding: 40px 20px;
+      text-align: center;
+} */
+
+/* a:link 
+{
+  color: azure;
+}
+
+a:hover 
+{
+  color: rgb(185, 213, 25);
+}
+
+a:active 
+{
+  color: rgb(119, 137, 19);
+} */
+
+.education-section 
+{
+    background-color: #2222226c;
+    color: #fff;
+    padding: 4svh 6svh;
+    height: 75svh;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+}
+
+.education-section h2 
+{
+    font-size: 40px;
+    margin-bottom: 3svh;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.education-box {
+  flex: 1 1 30%;
+  box-sizing: border-box;
+  padding: 1rem;
+  background-color: #444;
+  border-radius: 8px;
+}
+
+.education-description {
+  flex: 1 1 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 10svh;
+  text-align: center;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+  line-height: 1.8;
+  color: #ffffff;
+  font-family: Oswald;
+}
+
+.education-box h3 {
+    font-size: 24px;
+    margin-bottom: 1svh;
+    font-weight: bold;
+}
+
+.education-box p {
+    font-size: 18px;
+    line-height: 1.6;
+}
